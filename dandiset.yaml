@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000687
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,8 +10,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Saxena, Rajat (2023) similarity-weighted interleaved learning (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000687/draft
+citation: Saxena, Rajat; Shobe, Justin; McNaughton, Bruce (2023) similarity-weighted
+  interleaved learning (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000687/draft
 contributor:
 - affiliation: []
   email: rajatsxn94@gmail.com
@@ -19,19 +20,40 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  email: jshobe@gmail.com
+  includeInCitation: true
+  name: Shobe, Justin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  email: brucemcn@uci.edu
+  includeInCitation: true
+  name: McNaughton, Bruce
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2023-10-17T15:30:18.404487+00:00'
 description: High-density silicon probe recordings from dorsal and intermediate CA1,
   primary visual cortex, and antero-lateral visual cortex in mice while they are exploring
   VR environments with different levels of similarity
+ethicsApproval: []
 id: DANDI:000687/draft
 identifier: DANDI:000687
+keywords:
+- hippocampus, neocortex, memory replay, memory consolidation, learning
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000687/versions/draft/assets/
 name: similarity-weighted interleaved learning
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000687/draft
 version: draft
+wasGeneratedBy: []

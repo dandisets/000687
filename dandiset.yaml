@@ -6,12 +6,34 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: We thank Aida A. Andujo, Madison Lansing, James Musasizi, Meenakshi
+  Chandrasekaran, Aimee Nunez for assistance in data collection
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1602849050363
+  numberOfFiles: 4
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - ElectricalSeries
 citation: Saxena, Rajat; Shobe, Justin; McNaughton, Bruce (2023) similarity-weighted
-  interleaved learning (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000687/draft
+  interleaved learning (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: rajatsxn94@gmail.com
@@ -19,6 +41,7 @@ contributor:
   name: Saxena, Rajat
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
 - affiliation: []
   email: jshobe@gmail.com
@@ -34,26 +57,65 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- awardNumber: NS121764
+  contactPoint: []
+  identifier: https://ror.org/05h1kgg64
+  includeInCitation: false
+  name: National Institute of Health (BRAIN )
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: HR00111820021
+  contactPoint: []
+  identifier: https://ror.org/02caytj08
+  includeInCitation: false
+  name: Defense Advanced Research Projects Agency
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2023-10-17T15:30:18.404487+00:00'
-description: High-density silicon probe recordings from dorsal and intermediate CA1,
+datePublished: '2023-11-11T04:51:01.655164+00:00'
+description: 'High-density silicon probe recordings from dorsal and intermediate CA1,
   primary visual cortex, and antero-lateral visual cortex in mice while they are exploring
-  VR environments with different levels of similarity
+  VR environments with different levels of similarity. The experiment was aimed at
+  studying the content of replay across superficial and deep layers of visual cortex. '
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000687/draft
 identifier: DANDI:000687
 keywords:
-- hippocampus, neocortex, memory replay, memory consolidation, learning
+- cortex layers
+- hippocampus
+- 'learning '
+- memory
+- memory replay
+- memory consolidation
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000687/versions/draft/assets/
 name: similarity-weighted interleaved learning
 protocol: []
+publishedBy:
+  endDate: '2023-11-11T04:51:01.655164+00:00'
+  id: urn:uuid:9592df91-b48a-4482-965a-b8a90a4f742c
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-11-11T04:51:01.655164+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c889271f-1bb4-4b8e-b089-af8998e039c8
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-studyTarget: []
+studyTarget:
+- hippocampus
+- parietal cortex
+- visual cortex
 url: https://dandiarchive.org/dandiset/000687/draft
 version: draft
 wasGeneratedBy: []
